@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramienta de Lectura Rápida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Herramienta de Lectura Rápida</h1>
+
+        <div id="word-container">
+            <span id="current-word"></span>
+        </div>
+
+        <textarea id="text-input" placeholder="Pega tu texto aquí..."></textarea>
+
+        <div class="controls">
+            <button id="play-button">Reproducir</button>
+            <div class="setting">
+                <label for="font-size">Tamaño de Fuente:</label>
+                <input type="number" id="font-size" value="24">
+            </div>
+            <div class="setting">
+                <label for="wpm">Palabras por Minuto (PPM):</label>
+                <input type="number" id="wpm" value="300">
+            </div>
+            <div class="setting">
+                <label for="chunk-size">Palabras por Grupo:</label>
+                <select id="chunk-size">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
