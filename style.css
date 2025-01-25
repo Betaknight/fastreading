@@ -1,65 +1,82 @@
 body {
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #f0f0f0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
 }
 
 .container {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 30px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.promo-text {
+    margin-bottom: 20px; /* Espacio entre la nota y el título */
+    font-size: 14px;
+}
+
+.promo-text a{
+    color: blue;
 }
 
 #word-container {
-  font-size: 24px;
-  margin-bottom: 20px;
-  height: 50px; /* Altura fija para evitar saltos */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    height: 50px; /* Altura fija para evitar saltos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #current-word {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 #text-input {
-  width: 80%;
-  height: 150px;
-  margin-bottom: 20px;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  resize: vertical;
+    width: 80%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    resize: vertical;
 }
 
 .controls {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .setting {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
-  background-color: #367c39;
+    background-color: #367c39;
+}
+
+.youtube-link {
+    margin-top: 20px; /* Espacio entre los controles y el link de YouTube */
+    font-size: 14px;
+}
+.youtube-link a {
+    color: blue;
 }
